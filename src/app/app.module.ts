@@ -23,10 +23,14 @@ import {Vaf1Component } from './component/vaf1/vaf1.component';
 import {Vaf2Component } from './component/vaf2/vaf2.component';
 import {Vaf3Component} from './component/vaf3/vaf3.component';
 import {Vaf4Component} from './component/vaf4/vaf4.component';
+import { QComponent } from './component/q/q.component';
+import { FComponent } from './component/f/f.component';
+import { CComponent } from './component/c/c.component';
+
 
 @NgModule({
   declarations: [AppComponent,CapComponent,CadComponent,InicioComponent,Vaf2Component,Vaf3Component,Vaf4Component,Vaq1Component,Vaq4Component,Co1Component,
-  Co2Component,Co3Component,Co4Component,Vaq1Component,Vaq2Component,Vaq3Component,Vaf1Component ],
+  Co2Component,Co3Component,Co4Component,Vaq1Component,Vaq2Component,Vaq3Component,Vaf1Component ,QComponent,FComponent,CComponent],
   entryComponents: [],
   imports: [BrowserModule, IonicModule.forRoot(), AppRoutingModule],
   providers: [

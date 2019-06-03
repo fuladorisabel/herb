@@ -16,9 +16,4 @@ export class Vaf4Component{
   l: number = 0;
 
 
-
-
-ir() : void {
-
- }
   }
