@@ -1,0 +1,19 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>
+      Cadastro
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-item>
+    <ion-label> Nome </ion-label>
+    <ion-input (NgModle)="nome"></ion-input>
+    <ion-label> Email </ion-label>
+    <ion-input (NgModle)="email"></ion-input>
+    <ion-label> Senha </ion-label>
+    <ion-input (NgModle)="senha"></ion-input>
+  </ion-item>
+  <ion-button expand="full" (click)="verificar()"></ion-button>
+</ion-content>
